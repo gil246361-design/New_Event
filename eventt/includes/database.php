@@ -2,10 +2,11 @@
 declare(strict_types=1);
 function getConnection(): mysqli
 {
-    $hostname = 'sql100.infinityfree.com';
-    $dbName = 'if0_41252696_enrollment';   // ใส่ชื่อฐานข้อมูลจริงของคุณ
-    $username = 'if0_41252696';
-    $password = 'E4obGY3o3Aq7e';
+    $hostname = 'bk3tbnlweieopf2oqlth-mysql.services.clever-cloud.com';
+    $dbName = 'bk3tbnlweieopf2oqlth';   // ใส่ชื่อฐานข้อมูลจริงของคุณ
+    $username = 'u2oo8gcytw0r7adc';
+    $password = 'NGtADcCvjKdLcq9AQMiK';
+    $port     = 3306;
 
     $conn = new mysqli($hostname, $username, $password, $dbName);
 
